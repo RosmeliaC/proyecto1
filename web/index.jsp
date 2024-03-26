@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>PAGINA PRINCIPAL</h1>
+        <h1>Pagina Principal</h1>
         <%@include file="menu.jsp" %>
     </body>
 </html>
