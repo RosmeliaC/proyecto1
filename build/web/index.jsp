@@ -13,9 +13,9 @@
     </head>
     <body>
         <h1>PAGINA PRINCIPAL</h1>
-        <<ul>
-            <li>inicio</li>
-            <li>quienes somos</li>
+        <ul>
+            <li><a href="index.jsp">inicio</a></li>
+            <li><a href="quienes.jsp">Quienes somos</a></li>
             <li>servicios</li>
             <li>portafolio</li>
             <li>contactos</li>
