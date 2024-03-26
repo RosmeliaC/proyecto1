@@ -14,8 +14,15 @@
     <body>
         <h1>Contactos</h1>
         <%@include file="menu.jsp" %>
-        <p>El servicio Google Contacts te ofrece una agenda personal de contactos asociada a su cuenta de la Universidad.
-Mantén tus contactos organizados y actualizados, agrega contactos con facilidad y edita la información, como el número de teléfono, el correo o las direcciones.
-El servicio permite además delegar la administración de tus contactos para que otras personas puedan editar tus contactos por ti.</p>
+        <label>Nombre</label>
+        <input type="text" name="nombre" >
+        <br>
+        <label>Referencias</label>
+        <input type="text" name="referencia">
+        <br>
+        <label>Mensaje</label>
+        <textarea name="mensaje"></textarea>
+        <br> 
+        <input type ="submit">
     </body>
 </html>
